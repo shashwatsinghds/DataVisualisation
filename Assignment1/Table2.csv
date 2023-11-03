@@ -1,0 +1,117 @@
+Year,Call.Source,Species.Status,Final.Ranger.Action,Count
+2018,Central,Domestic,ACC or Rehabilitator,5
+2018,Central,Native,ACC or Rehabilitator,40
+2018,Employee,Domestic,ACC or Rehabilitator,14
+2018,Employee,Invasive,ACC or Rehabilitator,1
+2018,Employee,Native,ACC or Rehabilitator,80
+2018,Others,Domestic,ACC or Rehabilitator,1
+2018,Others,Exotic,ACC or Rehabilitator,1
+2018,Others,Native,ACC or Rehabilitator,202
+2018,Public,Domestic,ACC or Rehabilitator,5
+2018,Public,Native,ACC or Rehabilitator,25
+2019,Central,Domestic,ACC or Rehabilitator,8
+2019,Central,Invasive,ACC or Rehabilitator,1
+2019,Central,Native,ACC or Rehabilitator,30
+2019,Employee,Domestic,ACC or Rehabilitator,25
+2019,Employee,Exotic,ACC or Rehabilitator,2
+2019,Employee,Invasive,ACC or Rehabilitator,2
+2019,Employee,Native,ACC or Rehabilitator,55
+2019,Others,Domestic,ACC or Rehabilitator,19
+2019,Others,Exotic,ACC or Rehabilitator,1
+2019,Others,Invasive,ACC or Rehabilitator,3
+2019,Others,Native,ACC or Rehabilitator,42
+2019,Public,Domestic,ACC or Rehabilitator,9
+2019,Public,Exotic,ACC or Rehabilitator,1
+2019,Public,Invasive,ACC or Rehabilitator,2
+2019,Public,Native,ACC or Rehabilitator,37
+2020,Central,Domestic,ACC or Rehabilitator,10
+2020,Central,Exotic,ACC or Rehabilitator,2
+2020,Central,Invasive,ACC or Rehabilitator,1
+2020,Central,Native,ACC or Rehabilitator,37
+2020,Employee,Domestic,ACC or Rehabilitator,25
+2020,Employee,Exotic,ACC or Rehabilitator,1
+2020,Employee,Invasive,ACC or Rehabilitator,4
+2020,Employee,Native,ACC or Rehabilitator,90
+2020,Others,Domestic,ACC or Rehabilitator,14
+2020,Others,Invasive,ACC or Rehabilitator,2
+2020,Others,Native,ACC or Rehabilitator,27
+2020,Public,Domestic,ACC or Rehabilitator,17
+2020,Public,Exotic,ACC or Rehabilitator,2
+2020,Public,Invasive,ACC or Rehabilitator,5
+2020,Public,Native,ACC or Rehabilitator,57
+2021,Central,Domestic,ACC or Rehabilitator,16
+2021,Central,Invasive,ACC or Rehabilitator,1
+2021,Central,Native,ACC or Rehabilitator,27
+2021,Employee,Domestic,ACC or Rehabilitator,12
+2021,Employee,Exotic,ACC or Rehabilitator,4
+2021,Employee,Invasive,ACC or Rehabilitator,2
+2021,Employee,Native,ACC or Rehabilitator,38
+2021,Others,Domestic,ACC or Rehabilitator,5
+2021,Others,Exotic,ACC or Rehabilitator,1
+2021,Others,Native,ACC or Rehabilitator,15
+2021,Public,Domestic,ACC or Rehabilitator,10
+2021,Public,Exotic,ACC or Rehabilitator,1
+2021,Public,Invasive,ACC or Rehabilitator,3
+2021,Public,Native,ACC or Rehabilitator,18
+2018,Central,Domestic,All,11
+2018,Central,Exotic,All,2
+2018,Central,Invasive,All,3
+2018,Central,Native,All,100
+2018,Employee,Domestic,All,18
+2018,Employee,Exotic,All,2
+2018,Employee,Invasive,All,4
+2018,Employee,Native,All,158
+2018,Others,Domestic,All,1
+2018,Others,Exotic,All,1
+2018,Others,Invasive,All,1
+2018,Others,Native,All,303
+2018,Public,Domestic,All,7
+2018,Public,Exotic,All,3
+2018,Public,Invasive,All,4
+2018,Public,Native,All,81
+2019,Central,Domestic,All,17
+2019,Central,Invasive,All,8
+2019,Central,Native,All,96
+2019,Employee,Domestic,All,36
+2019,Employee,Exotic,All,5
+2019,Employee,Invasive,All,9
+2019,Employee,Native,All,163
+2019,Others,Domestic,All,24
+2019,Others,Exotic,All,3
+2019,Others,Invasive,All,8
+2019,Others,Native,All,106
+2019,Public,Domestic,All,16
+2019,Public,Exotic,All,5
+2019,Public,Invasive,All,10
+2019,Public,Native,All,121
+2020,Central,Domestic,All,27
+2020,Central,Exotic,All,3
+2020,Central,Invasive,All,2
+2020,Central,Native,All,128
+2020,Employee,Domestic,All,44
+2020,Employee,Exotic,All,9
+2020,Employee,Invasive,All,6
+2020,Employee,Native,All,221
+2020,Others,Domestic,All,24
+2020,Others,Exotic,All,2
+2020,Others,Invasive,All,13
+2020,Others,Native,All,106
+2020,Public,Domestic,All,33
+2020,Public,Exotic,All,3
+2020,Public,Invasive,All,22
+2020,Public,Native,All,170
+2021,Central,Domestic,All,28
+2021,Central,Invasive,All,7
+2021,Central,Native,All,95
+2021,Employee,Domestic,All,20
+2021,Employee,Exotic,All,6
+2021,Employee,Invasive,All,4
+2021,Employee,Native,All,116
+2021,Others,Domestic,All,8
+2021,Others,Exotic,All,1
+2021,Others,Invasive,All,2
+2021,Others,Native,All,62
+2021,Public,Domestic,All,15
+2021,Public,Exotic,All,1
+2021,Public,Invasive,All,12
+2021,Public,Native,All,77

@@ -1,0 +1,65 @@
+---
+title: "WP2 Example"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE)
+```
+```{r code0}
+library(ggplot2)
+library(dplyr)
+install.packages("hockeystick")
+library(hockeystick)
+co2 <- get_carbon()
+```
+```{r code1}
+ggplot(co2, aes(x = year, y = average)) + 
+  geom_point(col = "red")+
+  theme_bw()+
+  labs(x = "Year", y = "Average Monthly Carbon Dioxoide (ppm)")
+```
+
+Figure 1. The rapid change in monthly averages of carbon dioxide as measured on Mauna Loa since 1958. Data was pulled from the `hockeystick` package on R and remains unchanged and unfiltered. Y axis shows parts per million. 
+
+\newpage
+
+```{r code2}
+co3 <- co2 %>% filter(year>1980) 
+ggplot(co3, aes(x = year, y = average)) + 
+  geom_line(col = "yellow")+
+  theme_bw()+
+  labs(x = "") +
+  labs(y = "parts.per.mil")+
+  scale_y_continuous(limits = c(0, 400))+ 
+  scale_x_continuous(n.breaks = 30)+
+  labs(title = "Figure 2. The slow change in mon avg since 1958. 
+       \n Data was pulled \nfrom the hockeystick package  
+       and remains unchanged and unfiltered. Y axis shows parts per million.")
+```
+
+
+\newpage
+
+# Code Used To Make These Plots
+Below are the code chunks used to make these plots. Use **install.packages()** to install any missing packages before you run. 
+      
+```{r code0, eval=FALSE, echo=TRUE}
+```
+
+```{r code1, eval=FALSE, echo=TRUE}
+```
+
+```{r code2, eval=FALSE, echo=TRUE}
+```
+All of the Errors in Figure 2 (you don't need to call yours out in your submission, but you can if you like):
+
+*  The caption says unfiltered, but the data is filtered. 
+*  Caption also says since 1958 which is not true as it is filtered to 1980.
+*  A line plot isn't a great choice here.
+*  Yellow is virtually invisible.
+*  The x axis has no label and is overlapping with too many breaks and no rotation.
+*  The y axis has data artifacts and does not have a easy to read name
+*  The y axis has too big of a scale, hides the trend.
+*  The title is embedded in the figure. This R Markdown PDF still reads it okay but any other export would not have and it would have had anti aliasing issues.
+*  The title is also erratic in spacing and is broken up in strange places.
